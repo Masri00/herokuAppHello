@@ -14,4 +14,4 @@ st.write(f"""# You chose {number1+number2+number3}""")
 with open('look_up.pkl', 'rb') as pkl_file:
     look_up_dictionary=pickle.load(pkl_file)
 df=pd.DataFrame(look_up_dictionary['Barbell bench press']['male'][20])
-st.write(df)
+st.write('hello')
